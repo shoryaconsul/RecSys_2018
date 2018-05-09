@@ -1,6 +1,6 @@
 # RecSys Challenge 2018
 
-## Dataset generation:
+## Dataset generation
 * [prepare_data.py](prepare_data.py) generates the binary user-item matrix from the downloaded dataset.
 * [histograms.py](histograms.py) gives histograms of playlist and song statistics.
 
@@ -27,3 +27,5 @@
   * alpha: Parameter to tune similarity measure
   * q: Locality of scoring function
 
+### Ensemble of user-similarity based and item-similarity based
+* A weighted average of the scores generated using the aforementioned methods was used to generate recommendations.
