@@ -28,4 +28,4 @@
   * q: Locality of scoring function
 
 ### Ensemble of user-similarity based and item-similarity based
-* A weighted average of the scores generated using the aforementioned methods was used to generate recommendations.
+* [Similarity_ensemble.py](Similarity_ensemble.py) uses a weighted average of the scores generated using the aforementioned methods to generate recommendations.
